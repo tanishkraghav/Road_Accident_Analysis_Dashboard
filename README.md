@@ -1,130 +1,192 @@
-🚦 #Road Accident Analysis Dashboard | Power BI
+🚦 ROAD ACCIDENT ANALYSIS DASHBOARD
+📊 Power BI | Data Analytics | Business Intelligence
 
-An interactive Power BI dashboard designed to analyze road accident data and uncover critical insights related to casualties, accident severity, vehicle involvement, road conditions, and geographic patterns. This project transforms raw accident data into meaningful, decision-ready insights that can help improve road safety and policy planning.
+An interactive Power BI dashboard built to analyze road accident data and uncover meaningful insights related to casualties, accident severity, vehicle involvement, road conditions, and geographic patterns.
 
-##📌 Project Overview
+📌 PROJECT OVERVIEW
 
-Road accidents are a major public safety concern, yet analyzing accident data in raw tabular form makes it difficult to identify trends and risk factors.
+Road accidents are a critical public safety issue, but raw datasets often fail to communicate where, why, and how accidents happen.
 
-This dashboard answers key questions such as:
+This dashboard converts complex road accident data into clear, actionable insights that help answer questions such as:
 
-How have accidents and casualties changed year-over-year?
+📉 Are road accidents increasing or decreasing year-over-year?
 
-Which vehicle types contribute most to road casualties?
+🚗 Which vehicle types contribute most to casualties?
 
-Are urban areas riskier than rural areas?
+🌆 Are urban areas riskier than rural regions?
 
-How do road type and lighting conditions affect accident severity?
+🛣️ Which road types are most accident-prone?
 
-Where are the accident hotspots geographically?
+🌙 How do lighting conditions impact accident severity?
 
-🎯 Objective
+🗺️ Where are the major accident hotspots?
 
-The goal of this project is to:
+🎯 PROJECT OBJECTIVE
 
-Provide a clear, interactive view of road accident trends
+The primary goals of this project are to:
 
-Enable data-driven decision-making for road safety improvements
+✅ Build an interactive and executive-friendly dashboard
 
-Identify high-risk factors such as vehicle type, road type, and lighting conditions
+📊 Identify patterns, trends, and risk factors in accident data
 
-Support policy makers, analysts, and researchers with actionable insights
+🚦 Support road safety analysis and policy decision-making
 
-🛠️ Tech Stack
+🔍 Enable multi-dimensional filtering and exploration
 
-Power BI Desktop – Dashboard creation and visualization
+💡 Demonstrate strong skills in Power BI, DAX, and data storytelling
 
-Power Query – Data cleaning, transformation, and preprocessing
+🛠️ TECH STACK
 
-DAX (Data Analysis Expressions) – Custom KPIs, YoY comparisons, and calculated measures
+This project was built using the following tools and technologies:
 
-Data Modeling – Relationships across accident, casualty, vehicle, and location data
+📊 Power BI Desktop
+→ Main platform for data modeling and visualization
 
-Bing Maps – Geographic visualization of accident hotspots
+🔄 Power Query
+→ Data cleaning, transformation, and preprocessing
 
-File Formats – .pbix (development), .png (preview)
+🧠 DAX (Data Analysis Expressions)
+→ Custom KPIs, YoY comparisons, calculated measures
 
-📂 Data Source
+🧩 Data Modeling
+→ Relationships between accident, casualty, vehicle, and location tables
 
-Source: Road Accident & Casualty Dataset (UK Road Safety Data)
+🗺️ Bing Maps
+→ Geographic visualization of accident hotspots
 
-The dataset includes:
+📁 File Formats
+→ .pbix for development, .png for dashboard previews
 
-Accident and casualty counts
+📂 DATA SOURCE
 
-Severity levels (Fatal, Serious, Slight)
+Source: UK Road Accident & Casualty Dataset
 
-Vehicle categories
+The dataset contains detailed information on:
 
-Road type and surface conditions
+📌 Accident counts and casualty severity
 
-Light conditions (Day/Night)
+🚗 Vehicle types involved
 
-Urban vs Rural classification
+🛣️ Road type and surface conditions
 
-Location-level accident data
+🌙 Light conditions (Day / Night)
 
-Note: This project is for educational and analytical purposes only.
+🌆 Urban vs Rural classification
 
-📊 Key Features & Visuals
-🔹 KPI Summary
+🗺️ Location-based accident data
 
-Total CY Casualties
+⚠️ This project is created for analytical and educational purposes.
 
-Total CY Accidents
+📊 KEY FEATURES & VISUALS
+🔹 KPI SUMMARY (Top Section)
 
-Fatal, Serious, and Slight Casualties
+📈 Total CY Casualties
 
-Year-over-Year percentage change vs Previous Year
+🚧 Total CY Accidents
 
-🔹 Casualties by Vehicle Type
+☠️ Fatal Casualties
 
-Highlights the contribution of different vehicle categories such as Cars, Bikes, Vans, Buses, and others.
+⚠️ Serious Casualties
 
-🔹 Monthly Trend Analysis (CY vs PY)
+🩹 Slight Casualties
 
-Line chart comparison to identify seasonality and accident trends across months.
+📉 Year-over-Year % change vs Previous Year
 
-🔹 Urban vs Rural Distribution
+🔹 CASUALTIES BY VEHICLE TYPE
 
-Donut chart showing accident concentration across urban and rural regions.
+Cars
 
-🔹 Casualties by Road Type
+Bikes
 
-Bar chart identifying high-risk road types such as single carriageways and dual carriageways.
+Vans
 
-🔹 Casualties by Light Conditions
+Buses
 
-Comparison of accidents occurring during daytime vs nighttime.
+Agricultural & Other Vehicles
 
-🔹 Geographic Analysis
+📌 Clearly highlights which vehicle categories contribute most to road casualties.
 
-Interactive map displaying accident hotspots and regional clustering.
+🔹 MONTHLY TREND ANALYSIS (CY vs PY)
 
-📈 Key Insights
+Line chart comparison of:
 
-Urban areas account for the majority of road casualties
+Current Year (CY)
 
-Single carriageways have the highest number of accidents
+Previous Year (PY)
 
-Cars contribute the largest share of total casualties
+📌 Helps identify seasonality and accident trends across months.
 
-Majority of accidents occur during daylight hours
+🔹 URBAN vs RURAL DISTRIBUTION
 
-Noticeable year-over-year reduction in total casualties and accidents
+Donut chart showing:
 
-💡 Business Impact
+🌆 Urban casualties
 
-🚨 Helps identify high-risk accident zones
+🌄 Rural casualties
 
-📉 Supports road safety policy and planning
+📌 Reveals higher concentration of accidents in urban regions.
 
-🛣️ Assists in improving road infrastructure prioritization
+🔹 CASUALTIES BY ROAD TYPE
 
-📊 Enables data-backed decision-making for traffic authorities
+Single carriageway
 
-🎯 Demonstrates strong analytics, DAX, and storytelling skills
+Dual carriageway
 
-📷 Dashboard Preview
+Roundabout
 
-Replace the image path with your actual screenshot location.
+One-way street
+
+Slip road
+
+📌 Identifies high-risk road types requiring safety interventions.
+
+🔹 CASUALTIES BY LIGHT CONDITIONS
+
+☀️ Daytime accidents
+
+🌙 Nighttime accidents
+
+📌 Provides insights into visibility-related risks.
+
+🔹 GEOGRAPHIC ANALYSIS
+
+Interactive map visual
+
+Highlights accident hotspots and regional clustering
+
+📌 Enables location-based safety analysis.
+
+📈 KEY INSIGHTS
+
+🌆 Urban areas account for the majority of road casualties
+
+🛣️ Single carriageways are the most accident-prone road type
+
+🚗 Cars contribute the highest number of casualties
+
+☀️ Most accidents occur during daylight hours
+
+📉 Overall reduction in accidents and casualties year-over-year
+
+💼 BUSINESS IMPACT
+
+This dashboard can be used by:
+
+🚨 Traffic & Road Safety Authorities
+→ Identify accident hotspots and prioritize safety measures
+
+🏗️ Urban Planners & Infrastructure Teams
+→ Improve high-risk road designs
+
+📉 Policy Makers
+→ Track road safety improvements over time
+
+📊 Data Analysts
+→ Perform exploratory and trend analysis effectively
+
+📷 DASHBOARD PREVIEW
+    <img width="1152" height="646" alt="Road Accident Dashboard" src="https://github.com/user-attachments/assets/721bed1b-90a6-4dc1-9797-6357f076cd10" />
+
+
+
+📌 Replace the image path with your actual screenshot location.
