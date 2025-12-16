@@ -1,4 +1,4 @@
-#🚦 Road Accident Analysis Dashboard | Power BI
+🚦 #Road Accident Analysis Dashboard | Power BI
 
 An interactive Power BI dashboard designed to analyze road accident data and uncover critical insights related to casualties, accident severity, vehicle involvement, road conditions, and geographic patterns. This project transforms raw accident data into meaningful, decision-ready insights that can help improve road safety and policy planning.
 
