@@ -189,4 +189,3 @@ This dashboard can be used by:
 
 
 
-📌 Replace the image path with your actual screenshot location.
